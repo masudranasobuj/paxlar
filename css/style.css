@@ -275,8 +275,8 @@ header {
     .steps-section .step-img img:nth-child(2) {
       position: absolute;
       top: 70%;
-      left: 50%;
-      transform: translate(-50%, -70%);
+      left: 36%;
+      transform: translate(-44%, -70%);
       width: 200px; }
   .steps-section .steps {
     align-items: center;
