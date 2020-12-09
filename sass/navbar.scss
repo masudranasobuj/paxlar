@@ -1,0 +1,39 @@
+/*******navbar*****/
+.navbar{
+	.navbar-toggler{
+		color: $ThemeColor;
+	}
+	ul{
+		li{
+			a{				
+				@extend %Structure;
+				color: #161616 !important;
+				text-transform: uppercase;
+				font-weight: 500;
+				border-radius: 30px;
+				padding: 12px 20px !important;
+				border: 1px solid transparent;
+				display: inline-block;
+				@media (max-width: 1065px){
+					padding: 12px 17px !important;
+				}
+				&:hover{
+					@extend %btn-custom;
+					@media (max-width: 1065px){
+					padding: 12px 17px !important;
+					}
+				}
+			}
+		}
+		li:last-child{
+			a{
+				@extend %btn-custom;
+
+				&:hover{
+					background-color:transparent;
+					color: #7f7f7f !important; 
+				}
+			}
+		}
+	}
+}
