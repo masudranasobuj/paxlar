@@ -109,6 +109,9 @@ header {
   .banner-section .btn-custom {
     font-size: 16px;
     text-transform: uppercase; }
+    @media (max-width: 991px) {
+      .banner-section .btn-custom {
+        font-size: 12px; } }
     .banner-section .btn-custom:hover {
       background-color: transparent;
       border-color: #fff; }

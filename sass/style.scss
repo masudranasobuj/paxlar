@@ -93,6 +93,9 @@ header{
 		@extend %btn-custom;
 		font-size: 16px;
 		text-transform: uppercase;
+		@media (max-width:$media_md){
+			font-size: 12px;
+		}
 		&:hover{
 
 			background-color:transparent;
